@@ -1,0 +1,22 @@
+{
+    "name": "searchin",
+    "description": "iframeに別サイトの検索結果を表示する",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/common.js",
+                "js/event.js"
+            ]
+        }
+    ],
+    "options_page": "html/options.html",
+    "permissions": [
+        "storage",
+        "unlimitedStorage"
+    ]
+}

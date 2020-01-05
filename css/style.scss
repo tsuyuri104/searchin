@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+  width: 70%;
+}
+fieldset {
+  width: 50%;
+  display: block;
+  margin: 16px 0;
+}
+label {
+  display: block;
+}
+input {
+  display: block;
+  margin-bottom: 16px;
+
+  &[type="url"] {
+    width: 300px;
+  }
+}
